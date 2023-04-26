@@ -1,0 +1,22 @@
+{
+    "name": "carstenwindler/performance-tests",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "^2.66"
+    },
+    "require-dev": {
+        "phpbench/phpbench": "^1.2"
+    },
+    "license": "MIT",
+    "autoload-dev": {
+        "psr-4": {
+            "PerformanceTests\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carsten Windler",
+            "email": "carsten@carstenwindler.de"
+        }
+    ]
+}
