@@ -18,7 +18,7 @@ class DateFormatBench
     #[Bench\Iterations(10)]
     public function benchDateTime()
     {
-        date('D M d Y H:m:s');
+        (new DateTime())->format('D M d Y H:m:s');
     }
 
     #[Bench\Revs(5000)]
